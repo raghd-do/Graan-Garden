@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Green Garden </title>
+    <link rel="stylesheet" href="style.css">
+  <script src="script.js" type="text/jscript"></script>
+  </head>
+  <body>
+<!-- header start here -->
+    <div id="header">
+      <h1> Green Garden </h1>
+      <div id="nav">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="shop.html">Work Shop</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+    </div>
+<!-- body start here -->
+    <div id="main">
+      <div id="shopContent">
+        <table width="70%" align="center">
+          <thead id = "thead"> <!-- table hade -->
+            <tr>
+              <td align="center"> Plant </td>
+              <td align="center"> Discreption </td>
+              <td align="center"> Add to cart </td>
+            </tr>
+          </thead>
+          <tbody> <!-- table body -->
+            <tr>
+              <td> <img id = "imgPlant_1" src="plant1.jpg" alt="imge can't found" width="400px"></td>
+              <td><h5 id = "name_1"> Sansevieria Sansiam Ulimi </h5> <h5>10 CM</h5> <h5 id = "price_1">95 SR</h5></td>
+              <td> <button type="add" name="add_1" onclick="clickMe_1()">Add to cart</button> </td>
+            </tr>
+            <tr>
+              <td> <img id = "imgPlant_2" src="plant2.jpg" alt="imge can't found" width="400px"></td>
+              <td> <h5 id = "name_2">Castano </h5><h5>17 CM </h5><h5 id = "price_2">60 SR</h5> </td>
+              <td> <button type="add" name="add_2" onclick="clickMe_2()">Add to cart</button> </td>
+            </tr>
+            <tr>
+              <td> <img id = "imgPlant_3" src="plant3.jpg" alt="imge can't found" width="400px"></td>
+              <td><h5 id = "name_3">Sansevieria Sansiam Shabiki </h5><h5>10 CM </h5><h5 id = "price_3">45 SR</h5></td>
+              <td> <button type="add" name="add_3" onclick="clickMe_3()">Add to cart</button> </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="goShop_1">
+        <ul>
+          <li><a href="cart.html" onclick="cart()">submit to my cart</a></li>
+        </ul>
+      </div>
+
+      <script type="text/javascript">
+      window.onload= localStorage.clear();
+      </script>
+
+<!-- footer start here -->
+    <div id="footer">
+      <h6>$copyRight; 2019 This web site is for Trainee Raghad at AEC</h6>
+    </div>
+    </div>
+
+
+  </body>
+</html>

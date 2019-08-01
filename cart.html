@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Green Garden </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/jscript"></script>
+  </head>
+  <body>
+<!-- header start here -->
+    <div id="header">
+      <h1> Green Garden </h1>
+      <div id="nav">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="shop.html">Work Shop</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+    </div>
+<!-- body start here -->
+    <div id="main">
+      <div id="content">
+        <!-- this will show befor baying -->
+        <div align="center">
+          <table id = "cart"></table>
+          <div id="goShop">
+            <ul>
+              <li><a href="shop.html">Back to Shoping</a></li>
+            </ul>
+          </div>
+
+          <script>
+          window.onload= function()
+          {
+            document.getElementById("cart").innerHTML = printCart()};
+          </script>
+        </div>
+    </div>
+
+<!-- footer start here -->
+    <div id="footer">
+      <h6>$copyRight; 2019 This web site is for Trainee Raghad at AEC</h6>
+    </div>
+    </div>
+  </body>
+</html>

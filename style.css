@@ -1,0 +1,156 @@
+body{
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  font-family: MarWael FH02;
+}
+
+#header{
+  border: 1px solid #79BEA8;
+  width: 100%;
+  height: 120px;
+  background-color: #79BEA8;
+}
+
+#header h1{
+  color: #23483C;
+  text-align: center;
+  font-family: pristina;
+  font-size: 50px;
+}
+
+#header #nav{
+  margin-top: -50px;
+  margin-left: 10px;
+  color: #093426;
+}
+
+#header #nav ul li{
+  list-style-type: none;
+  display: inline;
+  padding: 3px 8px 3px 8px;
+  background-color: #E7F3EF;
+  font-size: 15px;
+}
+
+#header #nav a{
+  text-decoration: none;
+  color: #093426;
+  font-family: pristina;
+}
+
+#header #nav a:hover{
+  color: #093426;
+}
+
+#header #nav a:visited{
+  color: #093426;
+}
+
+#header #nav a:active{
+  color: #448D76;
+}
+
+#main{
+  border: 1px solid #E7F3EF;
+  height: auto;
+  width: 100%;
+  background-color: #E7F3EF;
+  margin: 0px auto;
+}
+
+#h-p{
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+#main #content img{
+  width: 1100px;
+  margin-left: 90px;
+}
+
+#shopContent table{
+  font-size: 200%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#thead{
+  font-family: pristina;
+}
+
+#cart{
+  border-collapse: collapse;
+  width: 40%;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#cart td, th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#cart tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#cart tr:hover{
+  background-color: #ddd;
+}
+
+#cart thead{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #23483c;
+  color: #79BEA8;
+}
+
+#goShop_1 ul li{
+  list-style-type: none;
+  display: inline;
+  padding: 10px 8px 10px 8px;
+  background-color: #448D76;
+  font-size: 15px;
+  text-decoration: none;
+  color: #E7F3EF;
+  font-family: pristina;
+  margin-left: 500px;
+}
+
+#goShop ul li{
+  list-style-type: none;
+  display: inline;
+  padding: 10px 8px 10px 8px;
+  background-color: #448D76;
+  font-size: 15px;
+  text-decoration: none;
+  color: #E7F3EF;
+  font-family: pristina;
+  margin-left: -50px;
+}
+
+#goShop_1 ul li a{
+  text-decoration: none;
+  color: #093426;
+  font-family: pristina;
+  font-size: 25px;
+}
+
+#goShop ul li a{
+  text-decoration: none;
+  color: #093426;
+  font-family: pristina;
+  font-size: 25px;
+}
+
+#footer{
+  border: 1px solid #093426;
+  height: 70px;
+  width: auto;
+  text-align: center;
+  background-color: #093426;
+  color: #79BEA8;
+}
