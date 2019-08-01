@@ -8,7 +8,7 @@ a front-end web site that helps anyone who want to sell plants.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/self-speech/Amirican-sign-language-translator-ASL/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/self-speech/Graan-Garden/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
